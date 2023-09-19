@@ -27,8 +27,8 @@ function HamburgerNav() {
               </a>
             </li>
             <li>
-              <a href="#experience" onClick={toggleMenu}>
-                Experience
+              <a href="#education" onClick={toggleMenu}>
+                Education
               </a>
             </li>
             <li>
