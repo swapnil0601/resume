@@ -3,7 +3,7 @@ import "../../styles/Sections/About.css";
 import { FaGraduationCap, FaArrowRight } from "react-icons/fa";
 const About = () => {
   return (
-    <section id="about">
+    <section id="about" className="section">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">

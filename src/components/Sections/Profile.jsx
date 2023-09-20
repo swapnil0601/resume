@@ -15,7 +15,7 @@ const Profile = () => {
     window.location.href = "./#contact";
   };
   return (
-    <section id="profile">
+    <section id="profile" className="section">
       <div class="section__pic-container">
         <img src={ProfileImg} alt="Profile" />
       </div>
