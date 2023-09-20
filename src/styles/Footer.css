@@ -1,0 +1,11 @@
+footer {
+  height: 26vh;
+  background: #000;
+  color: #fff;
+}
+
+footer p,
+footer a {
+  color: #fff;
+  text-align: center;
+}
