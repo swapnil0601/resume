@@ -1,15 +1,11 @@
 import React from "react";
 
 const Project = ({ project }) => {
-  const { name, github, live, liveAvailable } = project;
+  const { name, github, live, liveAvailable, image } = project;
   return (
     <div className="project-container color-container">
       <div className="project-container">
-        <img
-          src="./assets/project-1.png"
-          alt="Project 1"
-          className="project-img"
-        />
+        <img src={image} alt={name} className="project-img" />
       </div>
       <h2 className="project-sub-title project-title">{name}</h2>
       <div className="btn-container">

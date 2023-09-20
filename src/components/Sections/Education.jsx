@@ -1,9 +1,9 @@
 import React from "react";
-import "../../styles/Sections/About.css";
-import { FaGraduationCap, FaArrowRight } from "react-icons/fa";
+import "../../styles/Sections/Education.css";
+import { FaGraduationCap } from "react-icons/fa";
 const About = () => {
   return (
-    <section id="about" className="section">
+    <section id="education" className="section">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -52,12 +52,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      <FaArrowRight
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onClick={() => (window.location.href = "./#experience")}
-      />
     </section>
   );
 };
