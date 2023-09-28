@@ -1,3 +1,13 @@
+.skill_section {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .skill_section {
+    margin-top: 3rem;
+  }
+}
+
 .skill__type {
   display: flex;
   justify-content: center;

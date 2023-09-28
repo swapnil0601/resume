@@ -2,6 +2,8 @@ import Cardify from "../assets/Cardify.png";
 import Together from "../assets/Together.png";
 import SocialMedia from "../assets/SocialMedia.png";
 
+import { FaHtml5, FaCss3, FaJs, FaReact, SiNextdotjs } from "react-icons/fa";
+
 export const skills = {
   Languages: [
     {

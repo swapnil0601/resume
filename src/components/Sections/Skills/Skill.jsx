@@ -1,11 +1,11 @@
 import React from "react";
-import { FaCertificate } from "react-icons/fa";
+import { TbPoint } from "react-icons/tb";
 import "../../../styles/Sections/Skills.css";
-const Skill = ({ name, level }) => {
+const Skill = ({ name, level, icon }) => {
   return (
     <div className="skill__data">
       <h3 className="skill__name">
-        <FaCertificate /> {name}
+        <TbPoint /> {name}
       </h3>
       <span>{level}</span>
     </div>
