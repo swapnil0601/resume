@@ -1,6 +1,7 @@
 import "./App.css";
 import HamburgerNav from "./components/HamburgerNav";
 import Navbar from "./components/Navbar";
+import Contact from "./components/Sections/Contact";
 import Education from "./components/Sections/Education";
 import Footer from "./components/Sections/Footer";
 import Profile from "./components/Sections/Profile";
@@ -16,6 +17,7 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <Contact />
       <Footer />
     </div>
   );

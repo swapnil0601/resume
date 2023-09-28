@@ -23,6 +23,13 @@
   width: 400px;
   margin: auto 0;
 }
+
+@media screen and (max-width: 768px) {
+  .section__pic-container {
+    display: none;
+  }
+}
+
 .section__pic-container img {
   object-fit: cover;
 }

@@ -81,6 +81,8 @@ export const projects = [
     live: "",
     liveAvailable: false,
     image: Together,
+    description:
+      "Users can Create communities and Join communities. General Feed and Search Community functionality available.",
   },
   {
     name: "Cardify",
@@ -88,6 +90,8 @@ export const projects = [
     live: "",
     liveAvailable: false,
     image: Cardify,
+    description:
+      "Developed a Spaced Repetition Application focused on optimizing knowledge retention for MesoHacks Hackathon 2022.",
   },
   {
     name: "Social Media App",
@@ -95,5 +99,7 @@ export const projects = [
     live: "https://simplysocial1.netlify.app/",
     liveAvailable: true,
     image: SocialMedia,
+    description:
+      "Developed a full-stack social media web application using the MERN stack. Implemented user profile creation and authentication functionalities. Integrated CRUD operations for seamless post sharing.",
   },
 ];
