@@ -17,13 +17,13 @@ This project is a personal resume website created using React. It serves as a pl
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/resume-website.git
+   git clone https://github.com/swapnil0601/resume.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd resume-website
+   cd resume
    ```
 
 3. Install the project dependencies using npm
